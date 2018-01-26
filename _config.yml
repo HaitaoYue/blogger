@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hightall
-subtitle: Full stacker
+title: Hyperledger Cello
+subtitle: Cello
 description:
-author: hightall
+author: Haitao Yue
 language: en
 timezone:
 
@@ -14,8 +14,8 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: https://pages.github.ibm.com/bjhtyue/blogger
 #root: /bjhtyue/blogger/
-url: https://pages.github.ibm.com
-root: /bjhtyue/blogger
+url: http://blog.cello.ink
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -80,6 +80,6 @@ theme: material
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.ibm.com:bjhtyue/blogger.git
+  repo: git@github.com:HaitaoYue/blogger.git
   branch: gh-pages
   #message: {{ now('YYYY-MM-DD HH:mm:ss') }}
