@@ -74,7 +74,7 @@
 
     
         <meta property="article:published_time" content="Jan 26, 2018" />
-        <meta property="article:modified_time" content="Jan 26, 2018" />
+        <meta property="article:modified_time" content="Jan 27, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -115,7 +115,7 @@
     "headline": "关于cello",
     "url": "http://blog.cello.ink/2018/01/26/about-cello/index.html",
     "datePublished": "Jan 26, 2018",
-    "dateModified": "Jan 26, 2018",
+    "dateModified": "Jan 27, 2018",
     "description": "关于cello的一些介绍。",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -334,7 +334,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是cello"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是cello?</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#为什么会产生cello这个项目？"><span class="post-toc-number">2.</span> <span class="post-toc-text">为什么会产生cello这个项目？</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#设计图"><span class="post-toc-number">3.</span> <span class="post-toc-text">设计图</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#架构图"><span class="post-toc-number">3.1.</span> <span class="post-toc-text">架构图</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#网络拓扑图"><span class="post-toc-number">3.2.</span> <span class="post-toc-text">网络拓扑图</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#层次关系图"><span class="post-toc-number">3.3.</span> <span class="post-toc-text">层次关系图</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#PPT"><span class="post-toc-number">4.</span> <span class="post-toc-text">PPT</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#什么是cello"><span class="post-toc-number">1.</span> <span class="post-toc-text">什么是cello?</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#为什么会产生cello这个项目？"><span class="post-toc-number">2.</span> <span class="post-toc-text">为什么会产生cello这个项目？</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#Cello的特点"><span class="post-toc-number">3.</span> <span class="post-toc-text">Cello的特点</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#设计图"><span class="post-toc-number">4.</span> <span class="post-toc-text">设计图</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#架构图"><span class="post-toc-number">4.1.</span> <span class="post-toc-text">架构图</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#网络拓扑图"><span class="post-toc-number">4.2.</span> <span class="post-toc-text">网络拓扑图</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#层次关系图"><span class="post-toc-number">4.3.</span> <span class="post-toc-text">层次关系图</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#PPT"><span class="post-toc-number">5.</span> <span class="post-toc-text">PPT</span></a></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -498,6 +498,15 @@
 </blockquote>
 </li>
 </ol>
+<h1 id="Cello的特点"><a href="#Cello的特点" class="headerlink" title="Cello的特点"></a>Cello的特点</h1><ul>
+<li>快速部署多种类型的区块链服务。<blockquote><p>支持定制化的区块链实例，包括区块链类型，大小，共识机制等，当前主要支持的是fabric。</p>
+</blockquote></li>
+<li>自动化管理所有区块链的生命周期，包括创建，启动，停止，删除。<blockquote><p>根据每个主机资源的配额，通过健康检查，自动的管理主机上的区块链服务。</p>
+</blockquote></li>
+<li>支持在多种类型基础设施的部署。<blockquote><p>包括docker, docker swarm, bare metal, vmware, 将来也会支持kubernetes，以及其他类型。</p>
+</blockquote></li>
+<li>拥有对区块链的监控，日志，健康检查，以及分析的扩展功能。</li>
+</ul>
 <h1 id="设计图"><a href="#设计图" class="headerlink" title="设计图"></a>设计图</h1><h2 id="架构图"><a href="#架构图" class="headerlink" title="架构图"></a>架构图</h2><img src="/2018/01/26/about-cello/arch.png" title="架构图">
 <h2 id="网络拓扑图"><a href="#网络拓扑图" class="headerlink" title="网络拓扑图"></a>网络拓扑图</h2><img src="/2018/01/26/about-cello/network.png" title="网络拓扑图">
 <h2 id="层次关系图"><a href="#层次关系图" class="headerlink" title="层次关系图"></a>层次关系图</h2><img src="/2018/01/26/about-cello/layer.png" title="层次关系图">
