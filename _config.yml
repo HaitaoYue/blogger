@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: https://pages.github.ibm.com/bjhtyue/blogger
 #root: /bjhtyue/blogger/
-url: http://blog.cello.ink
+url: http://cello-blog.netlify.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
