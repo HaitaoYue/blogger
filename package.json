@@ -6,6 +6,11 @@
     "version": "3.5.0"
   },
   "dependencies": {
+    "ejs-lint": "^0.2.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "sass-lint": "^1.10.2",
     "hexo": "^3.4.2",
     "hexo-deployer-git": "^0.3.1",
     "hexo-generator-archive": "^0.1.4",
