@@ -463,8 +463,8 @@ gitment:
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
-  github_user: hightall@me.com # MUST HAVE, Your Github Username
-  github_repo: https://github.com/HaitaoYue/cello-comments.git # MUST HAVE, The name of the repo you use to store Gitment comments
+  github_user: HaitaoYue # MUST HAVE, Your Github Username
+  github_repo: cello-comments # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: b275d59180a6cef73b7d # MUST HAVE, Github client id for the Gitment
   client_secret: eb8b00a74298f62ebb41efbe9c828d591389fcb5 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
