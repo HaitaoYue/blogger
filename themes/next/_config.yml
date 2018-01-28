@@ -462,7 +462,7 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
+  language: auto # Force language, or auto switch by theme
   github_user: HaitaoYue # MUST HAVE, Your Github Username
   github_repo: cello-comments # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: b275d59180a6cef73b7d # MUST HAVE, Github client id for the Gitment
