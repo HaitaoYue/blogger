@@ -1,7 +1,6 @@
 ---
 title: 关于cello
 date: 2018-01-26 22:01:23
-description: 关于cello的一些介绍。
 categories: hyperledger
 tags: [hyperledger, cello, baas]
 ---
