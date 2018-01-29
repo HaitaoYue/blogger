@@ -1,7 +1,6 @@
 ---
 title: 版本v0.8.0-alpha发布
 date: 2018-01-20 13:43:09
-description: v0.8.0-alpha版本发布
 categories: release
 tags: [hyperledger, cello, release]
 ---
@@ -16,6 +15,8 @@ tags: [hyperledger, cello, release]
 * Support fabric 1.0.5;
 * Support fabric with kafaka mode;
 * Enable creating/hosting service images at dockerhub;
+
+<!-- more -->
 
 ## 提升
 
