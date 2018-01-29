@@ -15,6 +15,8 @@ tags: [hyperledger, cello, baas]
 底层可以支持在docker, docker swarm, bare metal, vmware, kubernetes部署。
 {% endblockquote %}
 
+<!-- more -->
+
 # 为什么会产生cello这个项目？
 1. hyperledger fabric部署门槛高
 {% blockquote %}
