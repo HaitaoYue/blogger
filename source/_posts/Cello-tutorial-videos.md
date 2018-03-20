@@ -10,6 +10,7 @@ tags: [hyperledger, cello, video]
 ## Tutorial
 
 * Quick start cello service.
+{% youtube LVGW1fuZ98c %}
 * How to use operator dashboard.
 * Apply chain in user dashboard.
 * Upload/install/instantiate/call smart contract.
