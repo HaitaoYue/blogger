@@ -885,6 +885,8 @@ vendors:
   # https://github.com/revir/need-more-share2
   needMoreShare2:
 
+daovoice: true
+daovoice_app_id: 9d8019fa
 
 # Assets
 css: css
