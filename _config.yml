@@ -83,3 +83,9 @@ deploy:
   repo: git@github.com:HaitaoYue/blogger.git
   branch: gh-pages
   #message: {{ now('YYYY-MM-DD HH:mm:ss') }}
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
