@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "hexo": {
-    "version": "3.5.0"
+    "version": "3.7.1"
   },
   "dependencies": {
     "hexo-generator-json-content": "^3.0.1",
@@ -18,8 +18,8 @@
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-generator-search": "^2.1.1",
     "hexo-server": "^0.2.0",
-	"hexo-generator-sitemap": "^1.2.0",
-	"hexo-generator-feed": "^1.2.2",
+    "hexo-generator-sitemap": "^1.2.0",
+    "hexo-generator-feed": "^1.2.2",
     "hexo-generator-searchdb": "^1.0.8"
   }
 }
